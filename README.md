@@ -1,4 +1,4 @@
-# IslandFlow AI
+# Ripple
 
 **The AI operating system for Caribbean tourism.**
 
@@ -13,11 +13,10 @@ A tourist lands in Jamaica. Flight delayed 4 hours. Their driver, hotel, and exc
 IslandFlow AI is a five-agent pipeline that detects the disruption, checks every operator's availability and business hours, reschedules what can be moved, finds alternatives for what cannot, and sends one WhatsApp message to the guest - all in under 60 seconds.
 
 ## Tech Stack
-- **Frontend**: Next.js 14, Tailwind CSS
+- **Frontend**: Next.js 16, Tailwind CSS
 - **Backend**: Supabase (PostgreSQL + Realtime), Node.js
-- **AI Agents**: LangGraph, OpenClaw, Claude API
+- **AI Agents**: LangGraph, OpenAI, Claude API
 - **Messaging**: WhatsApp Business API
-- **Compute**: Highrise NVIDIA H200
 
 ## Team
 | Name | Role |
@@ -27,7 +26,6 @@ IslandFlow AI is a five-agent pipeline that detects the disruption, checks every
 | Shamar | Backend |
 | Bhavesh | Full Stack |
 | Dayna | Frontend |
-| Christian | Design and Presentation |
 
 ## Project Structure
 - `apps/frontend` - Guest itinerary dashboard and operator coordination view
